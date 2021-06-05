@@ -18,6 +18,15 @@ $('.popup-2-close2').on('click',function(event){
    $('.popup-2').fadeOut();
 });
 
+$('.popup-btn3').on('click',function(event){
+   event.preventDefault();
+   $('.popup-3').fadeIn();
+});
+$('.popup-3-close3').on('click',function(event){
+   event.preventDefault();
+   $('.popup-3').fadeOut();
+});
+
 
 //слайдер с отзывами
 $('.feedback-slider').slick({

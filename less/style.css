@@ -1,5 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:700');
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
 html {
   font-size: 10px;
 }
@@ -15,7 +31,7 @@ body {
 .button {
   padding: 1rem 3rem;
   background-color: #fcb303;
-  color: #ffffff;
+  color: #fff;
   border-radius: 8px;
   text-transform: uppercase;
   border: none;
@@ -45,7 +61,7 @@ body {
   transform: translateX(-50%) translateY(-50%);
   padding: 5px;
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 1.3rem;
 }
 .form-btn {
@@ -64,7 +80,7 @@ section {
   text-align: center;
 }
 .section-header_light {
-  color: #ffffff;
+  color: #fff;
   margin-top: 0;
 }
 .section-header_light h2 {
@@ -78,7 +94,7 @@ header {
   padding: 1rem 0;
 }
 header .bg-light {
-  background-color: #ffffff!important;
+  background-color: #ffffff !important;
 }
 header .nav-item {
   margin-right: 4rem;
@@ -94,7 +110,7 @@ header .active {
 }
 .main {
   padding: 3rem 0 5rem;
-  background: #ffffff url(../img/bg-1.jpg) center center no-repeat;
+  background: #fff url(../img/bg-1.jpg) center center no-repeat;
   background-size: cover;
 }
 .main-content {
@@ -117,7 +133,7 @@ header .active {
   display: inline-block;
   padding: 3rem 5rem;
   background-color: #46b814;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -133,7 +149,7 @@ header .active {
   font-family: 'Montserrat', sans-serif;
 }
 .main-form {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 4rem 4.3rem;
   text-align: center;
 }
@@ -228,7 +244,7 @@ header .active {
 .price-block {
   padding: 1rem 3rem 4rem;
   min-height: 50rem;
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
   text-align: center;
 }
@@ -294,14 +310,14 @@ header .active {
   left: 4rem;
   width: 2rem;
   height: 2rem;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 2px solid #46b814;
   border-bottom: none;
   border-top-right-radius: 100px;
 }
 .feedback-slider {
   padding: 5rem 6rem;
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
 }
 .feedback-slider .media {
@@ -336,7 +352,7 @@ header .active {
 .feedback-form {
   margin-top: 5rem;
   padding: 4rem 10rem;
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
 }
 .feedback-form h3 {
@@ -360,7 +376,7 @@ header .active {
 }
 .scheme {
   margin-bottom: 0;
-  background: #ffffff url(../img/scheme/image1.png) bottom right -10rem no-repeat;
+  background: #fff url(../img/scheme/image1.png) bottom right -10rem no-repeat;
   background-size: 65rem;
 }
 .scheme-block {
@@ -412,7 +428,7 @@ header .active {
   border-radius: 50%;
   text-align: center;
   line-height: 4rem;
-  color: #ffffff;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.9rem;
@@ -459,7 +475,7 @@ header .active {
   border-color: #e8e8e8;
 }
 .problems-list_bad h4 {
-  opacity: .5;
+  opacity: 0.5;
 }
 .problems-list_bad ul li:before {
   background: url(../img/problems/cancel.png);
@@ -558,7 +574,7 @@ footer p {
   border-radius: 5px;
   left: 50%;
   top: 10%;
-  background-color: #ffffff;
+  background-color: #fff;
   transform: translateX(-50%);
   padding: 4rem 6rem;
 }
@@ -575,7 +591,7 @@ footer p {
   text-align: center;
   background-color: transparent;
   font-size: 3rem;
-  color: #ffffff;
+  color: #fff;
 }
 .popup-content {
   text-align: center;
@@ -609,7 +625,7 @@ footer p {
   border-radius: 5px;
   left: 50%;
   top: 10%;
-  background-color: #ffffff;
+  background-color: #fff;
   transform: translateX(-50%);
   padding: 4rem 6rem;
 }
@@ -622,7 +638,7 @@ footer p {
   text-align: center;
   background-color: transparent;
   font-size: 3rem;
-  color: #ffffff;
+  color: #fff;
 }
 .popup-2-content {
   text-align: center;
@@ -674,7 +690,7 @@ footer p {
     margin-bottom: 3rem;
   }
   .scheme {
-    background: #ffffff url(../img/scheme/image1.png) bottom right -25rem no-repeat;
+    background: #fff url(../img/scheme/image1.png) bottom right -25rem no-repeat;
     background-size: 60rem;
   }
   .problems-list {
@@ -722,7 +738,7 @@ footer p {
     width: 30%;
   }
   .scheme {
-    background: #ffffff url(../img/scheme/image1.png) bottom right -25rem no-repeat;
+    background: #fff url(../img/scheme/image1.png) bottom right -25rem no-repeat;
     background-size: 50rem;
   }
   .all-inclusive .media {
@@ -746,7 +762,7 @@ footer p {
   }
   .popup-2-service h6 {
     line-height: 1.5rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
   }
   .popup-2-price {
@@ -754,7 +770,7 @@ footer p {
   }
   .popup-2-price h6 {
     line-height: 1.5rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
   }
   footer .text {
